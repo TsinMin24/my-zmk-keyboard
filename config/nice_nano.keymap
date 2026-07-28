@@ -19,8 +19,8 @@
                 &kp (F14)
                 &kp (F15)
                 &kp (F16)
-                &kp (F22)
-                &kp (F24)
+                &kp RETURN
+                &kp (F20)
             >;
         };
     };
