@@ -1,0 +1,19 @@
+/ {
+    chosen {
+        zmk,kmap = &default_keymap;
+    };
+
+    default_keymap: default_keymap {
+        compatible = "zmk,kmap";
+        label = "Default";
+        layers = <&layer0>;
+    };
+
+    layer0: layer0 {
+        compatible = "zmk,keymap";
+        label = "4-Key Test";
+
+        bindings = <&kp F13 &kp F14
+                    &kp F15 &kp F16>;
+    };
+};
