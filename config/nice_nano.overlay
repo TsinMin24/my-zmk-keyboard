@@ -7,6 +7,16 @@
 / {
     chosen {
         zmk,kscan = &kscan0;
+        zmk,hid = &zmk_hid;
+        zmk,usb-hid = &zmk_hid;
+    };
+
+    hid_consumer {
+        compatible = "zmk,hid-consumer";
+    };
+
+    zmk_hid: hid {
+        compatible = "zmk,hid";
     };
 
     kscan0: kscan {
