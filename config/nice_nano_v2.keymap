@@ -13,7 +13,7 @@
         compatible = "zmk,keymap";
         label = "4-Key Test";
 
-        bindings = <&kp F13 &kp F14
-                    &kp F15 &kp F16>;
+        bindings = <&kp (F13) &kp (F14)
+                    &kp (F15) &kp (F16)>;
     };
 };
